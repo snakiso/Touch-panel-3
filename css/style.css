@@ -27,6 +27,10 @@ h3 {
   position: relative;
 }
 
+.swiper-wrapper {
+  transition-timing-function: linear !important;
+}
+
 .swiper-slide {
   width: -webkit-fit-content !important;
   width: -moz-fit-content !important;

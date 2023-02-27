@@ -5,14 +5,14 @@ let swiperWrapper = document.querySelector('.swiper-wrapper');
 
 
 var swiper = new Swiper('.cards-slider', {
- slidesPerView: "auto",
+ slidesPerView: 3,
  spaceBetween: 30,
  centeredSlides: true,
- speed: 5000,
- autoplay:{
-  delay: 3000,
- },
+ speed: 7000,
  loop: true,
+ autoplay: {
+  delay: 0
+ },
  navigation: {
   nextEl: ".swiper-button-next",
   prevEl: ".swiper-button-prev",
