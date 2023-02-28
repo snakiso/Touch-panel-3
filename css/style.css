@@ -97,6 +97,7 @@ h3 {
   max-width: 1190px;
   -o-object-fit: cover;
      object-fit: cover;
+  cursor: pointer;
 }
 
 .play-button {
